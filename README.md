@@ -2,8 +2,8 @@
 
 ## Prerequisites
 
-- Docker Desktop installed on your machine.
-- Git installed on your machine.
+- Docker Desktop installed on your machine.(required for both the methods)
+- Git installed on your machine.(for mrthod 1)
 - Terminal (Command Prompt, PowerShell, etc.).
 
 ### Method 1: Cloning the Git Repository and Running It on Terminal
