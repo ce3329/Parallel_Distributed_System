@@ -31,7 +31,7 @@
     Open your terminal and run:
 
     ```bash
-    Invoke-RestMethod -Method Post -Uri "http://localhost:8000/send-messages/?count=1000"
+    Invoke-RestMethod -Method Post -Uri "http://localhost:8000/send-messages/?count=1001"
     ```
 
 5. **Access RabbitMQ Management:**
@@ -67,7 +67,7 @@
     Open your terminal and run:
 
     ```bash
-    Invoke-RestMethod -Method Post -Uri "http://localhost:8000/send-messages/?count=1000"
+    Invoke-RestMethod -Method Post -Uri "http://localhost:8000/send-messages/?count=1001"
     ```
 
 5. **Access RabbitMQ Management:**
@@ -78,5 +78,8 @@
     http://localhost:15672
     ```
 
-    Log in using the credentials specified in your `.env` file.
+    Log in using the credentials
+
+       RABBITMQ_USER=guest
+       RABBITMQ_PASSWORD=guest
 
